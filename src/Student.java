@@ -13,4 +13,11 @@ public class Student {
         this.course = course;
     }
 
+    public int getCourse() {
+        return course;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
