@@ -10,6 +10,6 @@ public class Student {
         this.sername = sername;
         this.fakulty = fakulty;
         int grupp = 1;
-        int course = 1;
+        int course = 2;
     }
 }
