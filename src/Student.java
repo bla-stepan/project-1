@@ -12,5 +12,5 @@ public class Student {
         this.grupp = grupp;
         this.course = course;
     }
-    //принят вариант ветки 1
+
 }
