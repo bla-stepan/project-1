@@ -12,4 +12,8 @@ public class Student {
         int grupp = 1;
         this.course = course;
     }
+
+    public String getName() {
+        return name;
+    }
 }
