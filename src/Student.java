@@ -5,15 +5,19 @@ public class Student {
     int course;
     int grupp;
 
-    public Student(String name, String sername, String fakulty, int course, int grupp) {
+    public Student(String name, String sername, String fakulty, int course) {
         this.name = name;
         this.sername = sername;
         this.fakulty = fakulty;
-        this.grupp = grupp;
+        int grupp = 1;
         this.course = course;
     }
 
     public int getCourse() {
         return course;
+    }
+
+    public String getName() {
+        return name;
     }
 }
