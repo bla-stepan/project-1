@@ -12,4 +12,8 @@ public class Student {
         this.grupp = grupp;
         this.course = course;
     }
+
+    public int getCourse() {
+        return course;
+    }
 }
